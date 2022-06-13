@@ -1,0 +1,14 @@
+:root {
+	--prime-color: #000000;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-color: rgb(151, 230, 144);
+}
+
+a {
+	text-decoration: none;
+}
