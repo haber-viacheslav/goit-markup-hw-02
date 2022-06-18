@@ -37,7 +37,7 @@ body {
 /* Navigation */
 
 .nav-menu,
-.nav-address-menu {
+.address-menu {
 	font-family: "Roboto", sans-serif;
 	list-style: none;
 	font-weight: 500;
@@ -60,13 +60,13 @@ body {
 	color: var(--active-color);
 }
 
-.nav-address-link {
+.address-link {
 	text-decoration: none;
 	color: var(--prime-color);
 }
 
-.nav-address-link:hover,
-.nav-address-link:focus {
+.address-link:hover,
+.address-link:focus {
 	color: var(--active-color);
 }
 
@@ -192,7 +192,7 @@ body {
 	color: var(--prime-white);
 }
 
-.footer-menu .nav-address-link {
+.footer-menu .address-link {
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 1.71;
