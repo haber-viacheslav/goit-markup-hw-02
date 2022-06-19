@@ -3,6 +3,8 @@
 	--active-color: #2196f3;
 	--prime-white: #ffffff;
 	--grey-text: #757575;
+	--prime-bg-color: #2f303a;
+	--second-bg-color: #F5F4FA;
 }
 
 body {
@@ -10,14 +12,16 @@ body {
 	font-weight: 400;
 	letter-spacing: 0.03em;
 	font-size: 14px;
+	color: var(--prime-color);
 }
 
 /* Header */
 
 .page-header {
 	padding: 24px 0 25px 0;
+	border: 1px solid #ECECEC;
 }
-
+/* Logo */
 .logo-title {
 	font-family: "Raleway", sans-serif;
 	font-weight: 700;
@@ -160,6 +164,7 @@ body {
 
 .team {
 	min-width: 648px;
+	background-color: var(--second-bg-color);
 }
 
 .team .team-members {
@@ -181,7 +186,7 @@ body {
 /* Footer */
 
 .footer-menu {
-	background-color: #2f303a;
+	background-color: var(--prime-bg-color);
 }
 
 .footer-menu .logo-title {
@@ -192,18 +197,20 @@ body {
 	color: var(--prime-white);
 }
 
+
 .footer-menu .address-link {
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 1.71;
 	color: rgba(255, 255, 255, 0.6);
+	
 }
-
+.footer-menu .address-link:hover,
+.footer-menu .address-link:focus {
+	color: var(--active-color);
+}
 /* Portfolio page and section */
 
-/* .work{
-
-} */
 
 .work-btn-list,
 .work-cards {
@@ -216,7 +223,7 @@ body {
 	line-height: 1.6;
 	text-align: center;
 	color: var(--prime-color);
-	background-color: #f5f4fa;
+	background-color: var(--second-bg-color);
 	border-radius: 4px;
 	border: none;
 }
