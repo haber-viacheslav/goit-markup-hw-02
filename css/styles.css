@@ -165,6 +165,7 @@ body {
 .team .team-members {
 	text-align: center;
 }
+
 .team .member-title {
 	font-weight: 500;
 	font-size: 16px;
@@ -200,6 +201,7 @@ body {
 
 	color: rgba(255, 255, 255, 0.6);
 }
+
 .footer-menu .address-link:hover,
 .footer-menu .address-link:focus,
 .footer-menu .street-address:hover,
@@ -245,7 +247,6 @@ body {
 	line-height: 2;
 	letter-spacing: 0.06em;
 	color: var(--prime-color);
-	/* text-align: center; */
 }
 
 .work-card .work-card-descr {
@@ -253,5 +254,4 @@ body {
 	font-size: 16px;
 	line-height: 1.88;
 	color: var(--grey-text);
-	/* text-align: center; */
 }
