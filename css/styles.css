@@ -98,9 +98,11 @@ body {
 	line-height: 1.87;
 	color: var(--prime-white);
 	background-color: var(--active-color);
+
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 	border: none;
 	border-radius: 4px;
+	cursor: pointer;
 }
 
 .solutions .solutions-btn:hover,
@@ -130,7 +132,6 @@ body {
 }
 
 .peculiarities .peculiarities-descr {
-	font-weight: 400;
 	font-size: 14px;
 	line-height: 1.71;
 	color: var(--grey-text);
@@ -173,7 +174,6 @@ body {
 }
 
 .team .member-position {
-	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.19;
 	color: var(--grey-text);
@@ -195,10 +195,8 @@ body {
 }
 
 .footer-menu .address-link {
-	font-weight: 400;
 	font-size: 14px;
 	line-height: 1.71;
-
 	color: rgba(255, 255, 255, 0.6);
 }
 
@@ -226,6 +224,7 @@ body {
 
 	border-radius: 4px;
 	border: none;
+	cursor: pointer;
 }
 
 .works-btn-item:hover,
@@ -250,7 +249,6 @@ body {
 }
 
 .work-card .work-card-descr {
-	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.88;
 	color: var(--grey-text);
