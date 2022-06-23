@@ -4,7 +4,7 @@
 	--prime-white: #ffffff;
 	--grey-text: #757575;
 	--prime-bg-color: #2f303a;
-	--second-bg-color: #F5F4FA;
+	--second-bg-color: #f5f4fa;
 }
 
 body {
@@ -18,8 +18,7 @@ body {
 /* Header */
 
 .page-header {
-	padding: 24px 0 25px 0;
-	border: 1px solid #ECECEC;
+	border-bottom: 1px solid #ececec;
 }
 /* Logo */
 .logo-title {
@@ -42,7 +41,6 @@ body {
 
 .nav-menu,
 .address-menu {
-	font-family: "Roboto", sans-serif;
 	list-style: none;
 	font-weight: 500;
 	font-size: 14px;
@@ -82,8 +80,6 @@ body {
 }
 
 .solutions .solutions-title {
-	font-family: "Roboto", sans-serif;
-	font-style: normal;
 	font-weight: 900;
 	font-size: 44px;
 	line-height: 1.36;
@@ -96,8 +92,7 @@ body {
 .solutions .solutions-btn {
 	width: 200px;
 	height: 50px;
-	font-family: "Roboto", sans-serif;
-	font-style: normal;
+	font-family: inherit;
 	font-weight: 700;
 	font-size: 16px;
 	line-height: 1.87;
@@ -122,7 +117,7 @@ body {
 	display: none;
 }
 
-.peculiarities .peculiarities-items {
+.peculiarities-items {
 	list-style: none;
 }
 
@@ -170,13 +165,13 @@ body {
 .team .team-members {
 	text-align: center;
 }
-.team .team-member-title {
+.team .member-title {
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.19;
 }
 
-.team .team-member-position {
+.team .member-position {
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.19;
@@ -195,22 +190,23 @@ body {
 
 .footer-menu .street-address {
 	color: var(--prime-white);
+	text-decoration: none;
 }
-
 
 .footer-menu .address-link {
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 1.71;
+
 	color: rgba(255, 255, 255, 0.6);
-	
 }
 .footer-menu .address-link:hover,
-.footer-menu .address-link:focus {
+.footer-menu .address-link:focus,
+.footer-menu .street-address:hover,
+.footer-menu .street-address:focus {
 	color: var(--active-color);
 }
 /* Portfolio page and section */
-
 
 .work-btn-list,
 .work-cards {
@@ -218,12 +214,14 @@ body {
 }
 
 .works-btn-item {
+	font-family: inherit;
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.6;
 	text-align: center;
 	color: var(--prime-color);
 	background-color: var(--second-bg-color);
+
 	border-radius: 4px;
 	border: none;
 }
@@ -232,6 +230,7 @@ body {
 .works-btn-item:focus {
 	color: var(--prime-white);
 	background-color: var(--active-color);
+
 	box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
 		0px 2px 2px rgba(0, 0, 0, 0.1);
 }
@@ -246,7 +245,7 @@ body {
 	line-height: 2;
 	letter-spacing: 0.06em;
 	color: var(--prime-color);
-	text-align: center;
+	/* text-align: center; */
 }
 
 .work-card .work-card-descr {
@@ -254,5 +253,5 @@ body {
 	font-size: 16px;
 	line-height: 1.88;
 	color: var(--grey-text);
-	text-align: center;
+	/* text-align: center; */
 }
