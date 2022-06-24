@@ -9,8 +9,6 @@
 
 body {
 	font-family: "Roboto", sans-serif;
-	font-weight: 400;
-	letter-spacing: 0.03em;
 	font-size: 14px;
 	color: var(--prime-color);
 }
@@ -29,8 +27,6 @@ body {
 	letter-spacing: 0.03em;
 	text-decoration: none;
 	color: #000000;
-	width: 145px;
-	height: 31px;
 }
 
 .logo-blue {
@@ -75,7 +71,6 @@ body {
 /* Solutions section */
 
 .solutions {
-	min-height: 600px;
 	background-color: #2f303a;
 }
 
@@ -83,8 +78,8 @@ body {
 	font-weight: 900;
 	font-size: 44px;
 	line-height: 1.36;
-	text-align: center;
 	letter-spacing: 0.06em;
+	text-align: center;
 	text-transform: uppercase;
 	color: var(--prime-white);
 }
@@ -96,6 +91,8 @@ body {
 	font-weight: 700;
 	font-size: 16px;
 	line-height: 1.87;
+	letter-spacing: 0.06em;
+	text-align: center;
 	color: var(--prime-white);
 	background-color: var(--active-color);
 
@@ -111,13 +108,9 @@ body {
 }
 /* Peculiarities section */
 
-.peculiarities {
+/* .peculiarities {
 	min-height: 289px;
-}
-
-.hiden-title {
-	display: none;
-}
+} */
 
 .peculiarities-items {
 	list-style: none;
@@ -139,9 +132,9 @@ body {
 
 /* Doing section */
 
-.doing {
+/* .doing {
 	min-height: 386px;
-}
+} */
 
 .doing .doing-title,
 .team .team-title {
@@ -159,8 +152,14 @@ body {
 /* Our Team section */
 
 .team {
-	min-width: 648px;
+	/* min-width: 648px; */
 	background-color: var(--second-bg-color);
+}
+.team .team-member {
+	background-color: var(--prime-white);
+	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+		0px 2px 1px rgba(0, 0, 0, 0.2);
+	border-radius: 0px 0px 4px 4px;
 }
 
 .team .team-members {
@@ -190,11 +189,13 @@ body {
 }
 
 .footer-menu .street-address {
+	font-style: normal;
 	color: var(--prime-white);
 	text-decoration: none;
 }
 
 .footer-menu .address-link {
+	font-style: normal;
 	font-size: 14px;
 	line-height: 1.71;
 	color: rgba(255, 255, 255, 0.6);
