@@ -60,7 +60,7 @@ body {
 
 .address-link {
 	text-decoration: none;
-	color: var(--prime-color);
+	color: var(--grey-text);
 }
 
 .address-link:hover,
@@ -190,16 +190,19 @@ body {
 
 .footer-menu .street-address {
 	font-style: normal;
-	color: var(--prime-white);
 	text-decoration: none;
+	letter-spacing: 0.03em;
+	color: var(--prime-white);
 }
 
 .footer-menu .address-link {
 	font-style: normal;
 	font-size: 14px;
 	line-height: 1.71;
+	letter-spacing: 0.03em;
 	color: rgba(255, 255, 255, 0.6);
 }
+
 
 .footer-menu .address-link:hover,
 .footer-menu .address-link:focus,
@@ -214,7 +217,7 @@ body {
 	list-style: none;
 }
 
-.works-btn-item {
+.work-btn-item {
 	font-family: inherit;
 	font-weight: 500;
 	font-size: 16px;
@@ -228,8 +231,8 @@ body {
 	cursor: pointer;
 }
 
-.works-btn-item:hover,
-.works-btn-item:focus {
+.work-btn-item:hover,
+.work-btn-item:focus {
 	color: var(--prime-white);
 	background-color: var(--active-color);
 
